@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import $ from "jquery";
+// import $ from "jquery";
 import Career from "./components/Career";
 import Apply from "./components/Apply";
 
-window.jQuery = $;
-window.$ = $;
-global.jQuery = $;
+// window.jQuery = $;
+// window.$ = $;
+// global.jQuery = $;
 
 class App extends Component {
   render() {

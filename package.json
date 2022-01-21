@@ -26,8 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "PUBLIC_URL=https://www.intama.info gh-pages -d build"
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"
